@@ -5,8 +5,8 @@ heroku_security:
   permissions: "🔐 <b>Aqui você pode configurar permissões para</b> <code>{}{}</code>"
   close_menu: "🙈 Fechar este menu"
   global: "🔐 <b>Aqui você pode configurar a máscara de delimitação global. Se a permissão for excluída aqui, ela será excluída em todos os lugares!</b>"
-  owner: "😎 Dono"
-  group_owner: "🧛‍♂️ Dono do grupo"
+  owner: "😎 Dono(a)"
+  group_owner: "🧛‍♂️ Dono(a) do grupo"
   group_admin_add_admins: "🧑‍⚖️ Admin (adicionar membros)"
   group_admin_change_info: "🧑‍⚖️ Admin (alterar informações)"
   group_admin_ban_users: "🧑‍⚖️ Admin (banir)"
@@ -17,10 +17,10 @@ heroku_security:
   group_member: "👥 Membro do grupo"
   pm: "🤙 Em PM"
   everyone: "🌍 Todos (Inline)"
-  owner_list: "<emoji document_id=5386399931378440814>😎</emoji> <b>Usuários no grupo</b> <code>dono</code><b>:</b>\n\n{}"
-  no_owner: "<emoji document_id=5386399931378440814>😎</emoji> <b>Não há usuários no grupo</b> <code>dono</code>"
-  owner_added: '<emoji document_id="5386399931378440814">😎</emoji> <b><a href="tg://user?id={}">{}</a> adicionado ao grupo</b> <code>dono</code>'
-  owner_removed: '<emoji document_id="5386399931378440814">😎</emoji> <b><a href="tg://user?id={}">{}</a> removido do grupo</b> <code>dono</code>'
+  owner_list: "<emoji document_id=5386399931378440814>😎</emoji> <b>Usuários no grupo</b> <code>dono(a)</code><b>:</b>\n\n{}"
+  no_owner: "<emoji document_id=5386399931378440814>😎</emoji> <b>Não há usuários no grupo</b> <code>dono(a)</code>"
+  owner_added: '<emoji document_id="5386399931378440814">😎</emoji> <b><a href="tg://user?id={}">{}</a> adicionado ao grupo</b> <code>dono(a)</code>'
+  owner_removed: '<emoji document_id="5386399931378440814">😎</emoji> <b><a href="tg://user?id={}">{}</a> removido do grupo</b> <code>dono(a)</code>'
   no_user: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Especifique um usuário para permitir</b>"
   not_a_user: "<emoji document_id=5447644880824181073>⚠️</emoji> <b>A entidade especificada não é um usuário</b>"
   li: '<emoji document_id=4974307891025543730>▫️</emoji> <b><a href="tg://user?id={}">{}</a></b>'
@@ -41,7 +41,7 @@ heroku_security:
   multiple_rules: "🔐 <b>Não foi possível determinar de forma inequívoca a regra de segurança. Por favor, escolha a que você quis dizer:</b>\n\n{}"
   rules: "<emoji document_id=5472308992514464048>🔐</emoji> <b>Regras de segurança direcionadas:</b>\n\n{}"
   no_rules: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Nenhuma regra de segurança direcionada</b>"
-  owner_target: "<emoji document_id=5447644880824181073>⚠️</emoji> <b>Este usuário é dono e não pode ser promovido pela segurança direcionada</b>"
+  owner_target: "<emoji document_id=5447644880824181073>⚠️</emoji> <b>Este usuário é dono(a) e não pode ser promovido pela segurança direcionada</b>"
   rules_removed: '<emoji document_id=5472308992514464048>🔐</emoji> <b>Regras de segurança direcionadas para <a href="{}">{}</a> removidas</b>'
   rule_removed: '<emoji document_id=5472308992514464048>🔐</emoji> <b>Regra de segurança direcionada para <a href="{}">{}</a> (</b><code>{}</code><b>) removida</b>'
   chat_inline: "⚠️ <b>Você não pode criar uma regra de comando inline para chats!</b>"
@@ -61,9 +61,9 @@ heroku_security:
   second: "segundo"
   seconds: "segundos"
   _cmd_doc_inlinesec: "[comando] - Configurar as configurações de segurança do comando inline"
-  _cmd_doc_owneradd: "<usuário> - Adicionar usuário ao `dono`"
-  _cmd_doc_ownerlist: "Listar usuários no `dono`"
-  _cmd_doc_ownerrm: "<usuário> - Remover usuário do `dono`"
+  _cmd_doc_owneradd: "<usuário> - Adicionar usuário ao `dono(a)`"
+  _cmd_doc_ownerlist: "Listar usuários no `dono(a)`"
+  _cmd_doc_ownerrm: "<usuário> - Remover usuário do `dono(a)`"
   _cmd_doc_security: "[comando] - Configurar as configurações de segurança do comando"
   _cmd_doc_tsec: "<\"user\"/\"chat\"/\"sgroup\"> [user ou chat alvo] [regra (comando/módulo)] [tempo] - Adicionar nova regra de segurança direcionada\nExemplo: .tsec user ban 1d, .tsec chat weather 1h, .tsec user HikariChat"
   _cmd_doc_tsecclr: "<\"user\"/\"chat\"/\"sgroup\"> - Limpar regras de segurança direcionadas\nExemplo: .tsecclr user, .tsecclr chat"
@@ -427,7 +427,7 @@ help:
 
 heroku_info:
   name: "HerokuInfo"
-  owner: "Dono"
+  owner: "Dono(a)"
   version: "Versão"
   build: "Build"
   prefix: "Prefixo"
@@ -437,7 +437,7 @@ heroku_info:
   ram_usage: "Uso da RAM"
   send_info: "Enviar informações do userbot"
   description: "ℹ️ Isso não comprometerá nenhuma informação sensível."
-  up-to-date: "<emoji document_id=5370699111492229743>🌸</emoji> <b>Atualizada</b>"
+  up-to-date: "<emoji document_id=5370699111492229743>🌸</emoji> <b>Atualizado(a)</b>"
   update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Atualização obrigatória</b> <code>{prefix}update</code>"
   setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>Você precisa especificar o texto para alterar as informações.</b>"
   setinfo_success: "<emoji document_id=5436040291507247633>🎉</emoji> <b>Informações alteradas com sucesso!</b>"
